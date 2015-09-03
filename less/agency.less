@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
 	background-color: @gray-darkest;
 	border-color: transparent;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
 	.navbar-brand {
 		color: @brand-primary;
 		.script-font;
@@ -154,21 +155,26 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-default.navbar-shrink {
     	background-color: @gray-darkest;
-        padding: 10px 0;
+      padding: 10px 0;
+      text-shadow: none;
 		.navbar-brand {
-	        font-size: 1.5em;
-	    }    
+	    font-size: 1.5em;
+	  }
+    .navbar-default.navbar-shrink .navbar-brand {
+      display: block;
+    }
 	}
 }
 
 header {
-	background-image: url('../img/header-bg.jpg');
+	background-image: url('../img/header-bg/light/light-bg-1.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
 	.background-cover;
 	text-align: center;
-	color: white;
+  //color: @brand-primary;
+
 	.intro-text {
 		padding-top: 100px;
 		padding-bottom: 50px;
@@ -177,7 +183,8 @@ header {
 			font-style: italic;
 			font-size: 22px;
 			line-height: 22px;
-			margin-bottom: 25px;
+			margin-bottom: 0; //25px;
+      //text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 		}
 		.intro-heading {
 			.heading-font;
@@ -185,8 +192,17 @@ header {
 			font-size: 50px;
 			line-height: 50px;
 			margin-bottom: 25px;
+      //text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 		}
 	}
+
+  &.bg-1 {
+    background-image: url('../img/header-bg/light/light-bg-1.jpg');
+  }
+
+  &.bg-2 {
+    background-image: url('../img/header-bg/light/light-bg-2.jpg');
+  }
 }
 
 @media(min-width:768px) {
@@ -199,14 +215,15 @@ header {
 				font-style: italic;
 				font-size: 40px;
 				line-height: 40px;
-				margin-bottom: 25px;
+				//margin-bottom: 25px;
 			}
 			.intro-heading {
 				.heading-font;
 				font-weight: 700;
 				font-size: 75px;
-				line-height: 75px;
+				//line-height: 75px;
 				margin-bottom: 50px;
+        letter-spacing: 4px;
 			}
 		}
 	}
@@ -228,6 +245,7 @@ section {
 		font-style: italic;
 		font-weight: 400;
 		margin-bottom: 75px;
+    line-height: 1.6em;
     }
 }
 
@@ -283,8 +301,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
         	max-width: 400px;
@@ -569,7 +587,7 @@ section#contact {
 	   font-weight: 700;
 	   color: @placeholder-text;
 	}
-	:-ms-input-placeholder {  
+	:-ms-input-placeholder {
 	   .heading-font;
 	   font-weight: 700;
 	   color: @placeholder-text;
@@ -694,8 +712,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
     	opacity: 0;
