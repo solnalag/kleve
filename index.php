@@ -236,7 +236,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Career Overview</h2>
-                    <h3 class="section-subheading text-muted">I started my working career with car rental for a couple of years. It gave me lots of experience with customer relations of all kinds.
+                    <h3 class="section-subheading text-muted">I started my working career with car rental for a couple of years. It gave me lots of experience with customer relations of all kind.
                         <br>The benefit of be able to borrow a new car every day was of course also great as a poor teenager...</h3>
                 </div>
             </div>
@@ -295,7 +295,7 @@
                                     <h4 class="subheading">Web Developer at Happiness</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">The happiness begings! In the begining of 2012 I got an employment at the web agency Happiness. This was perfect and exactly what I wantend to learn from others specialized in Drupal. At Happiness I have had the fortune to be part of several fun and learning projects with great co-workers. As a web developer, my time at Happiness have increased my knowlege and skills about web development far more than I expected. Besides my role as a web developer I am also account manager and project leader for some of our projects and I am sure it will not stop there.</p>
+                                    <p class="text-muted">The happiness begins! In the begining of 2012 I got an employment at the web agency Happiness. This was perfect and exactly what I wantend, to learn from others specialized in Drupal. At Happiness I have had the fortune to be part of several fun and learning projects with great co-workers. As a web developer, my time at Happiness have increased my knowlege and skills about web development far more than I expected. Besides my role as a web developer I am also account manager and project leader for some of our projects and I am sure it will not stop there.</p>
                                 </div>
                             </div>
                         </li>

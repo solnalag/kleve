@@ -13,6 +13,22 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    // Window height.
+    var height;
+
+    // Make header image fill the screen.
+    $(document).ready(function() {
+      height = $(window).height();
+      $('header').css('height', height + 'px');
+    });
+
+    // Adjust header image on device rotation e.g. mobile.
+    $(window).on( "orientationchange", function(event) {
+      height = $(window).height();
+      $('header').css('height', height + 'px');
+    });
+
 });
 
 // Highlight the top nav as scrolling occurs
