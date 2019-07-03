@@ -1,2 +1,3 @@
 # Ignore paths.
 .DS_Store
+.idea

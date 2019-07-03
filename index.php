@@ -319,13 +319,13 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">My Amazing Family</h2>
-                    <h3 class="section-subheading text-muted">The family met for the first time in 2008 and have been growing ever since...</h3>
+                    <h3 class="section-subheading text-muted">It´s just me and my boys...</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/andreas-small.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/andreas-river.jpg" class="img-responsive img-circle" alt="">
                         <h4>Andreas Kleve</h4>
                         <p class="text-muted">Web Developer</p>
                         <!-- <ul class="list-inline social-buttons">
@@ -342,9 +342,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/asa-small.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Åsa aka The Wife</h4>
-                        <p class="text-muted">Bachelor student and Entrepreneur</p>
+                        <img src="img/team/dream-woman.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Love of my life</h4>
+                        <p class="text-muted">Position up for grabs ;)</p>
                         <!-- <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -359,7 +359,7 @@
                     <div class="team-member">
                         <img src="img/team/kids.jpg" class="img-responsive img-circle" alt="">
                         <h4>Liam and Jack aka The Kids</h4>
-                        <p class="text-muted">Kindergarten hooligans</p>
+                        <p class="text-muted">My everything</p>
                         <!-- <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
