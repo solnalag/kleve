@@ -357,7 +357,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/kids.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/children.jpg" class="img-responsive img-circle" alt="">
                         <h4>Liam and Jack aka The Kids</h4>
                         <p class="text-muted">My everything</p>
                         <!-- <ul class="list-inline social-buttons">
