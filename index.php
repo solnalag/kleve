@@ -344,7 +344,7 @@
                     <div class="team-member">
                         <img src="img/team/dream-woman.jpg" class="img-responsive img-circle" alt="">
                         <h4>Love of my life</h4>
-                        <p class="text-muted">Position up for grabs ;)</p>
+                        <p class="text-muted">Position filled</p>
                         <!-- <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
